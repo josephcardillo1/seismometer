@@ -22,7 +22,7 @@ from seismometer.plot.mpl._ux import MAX_CATEGORY_SIZE
 from seismometer.plot.mpl.likert import likert_plot
 from seismometer.seismogram import Seismogram
 
-logger = logging.getLogger("seismometer")
+from seismometer.core.logger import logger
 
 """ The maximum number of categories allowed in a categorical column. """
 

@@ -16,7 +16,7 @@ from ipywidgets import Widget
 
 from seismometer.core.decorators import DiskCachedFunction
 
-logger = logging.getLogger("seismometer")
+from seismometer.core.logger import logger
 
 
 def html_load(filepath) -> HTML:

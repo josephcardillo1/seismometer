@@ -24,7 +24,7 @@ from seismometer.data.timeseries import create_metric_timeseries
 from seismometer.html import template
 from seismometer.seismogram import Seismogram
 
-logger = logging.getLogger("seismometer")
+from seismometer.core.logger import logger
 
 
 @export

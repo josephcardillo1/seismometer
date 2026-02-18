@@ -6,7 +6,7 @@ from jinja2 import Environment, PackageLoader, TemplateNotFound
 
 FULL_WIDTH_STYLE = "width: 100%; max-width: 1200px;"
 
-logger = logging.getLogger("seismometer")
+from seismometer.core.logger import logger
 
 # Initializing Jinja
 package_loader = PackageLoader("seismometer", "html/resources")

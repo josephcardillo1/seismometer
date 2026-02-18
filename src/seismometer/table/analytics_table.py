@@ -23,7 +23,7 @@ from seismometer.seismogram import Seismogram
 
 from .analytics_table_config import COLORING_CONFIG_DEFAULT, AnalyticsTableConfig
 
-logger = logging.getLogger("seismometer")
+from seismometer.core.logger import logger
 
 # region Analytics Table
 

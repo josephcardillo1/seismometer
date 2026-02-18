@@ -10,7 +10,7 @@ from seismometer.data import default_cohort_summaries, score_target_cohort_summa
 from seismometer.html import template
 from seismometer.seismogram import Seismogram
 
-logger = logging.getLogger("seismometer")
+from seismometer.core.logger import logger
 
 
 def _get_info_dict(plot_help: bool) -> dict[str, str | list[str]]:

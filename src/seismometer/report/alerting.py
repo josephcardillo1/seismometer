@@ -38,7 +38,7 @@ from pydantic import BaseModel, Field
 
 from seismometer.plot.mpl._ux import alert_colors
 
-logger = logging.getLogger("seismometer")
+from seismometer.core.logger import logger
 
 
 class ParsedAlert(BaseModel):

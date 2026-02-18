@@ -8,7 +8,7 @@ import seaborn as sns
 
 from .decorators import model_plot
 
-logger = logging.getLogger("seismometer")
+from seismometer.core.logger import logger
 
 
 @model_plot
