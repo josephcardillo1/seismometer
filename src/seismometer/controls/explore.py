@@ -14,7 +14,7 @@ from .selection import DisjointSelectionListsWidget, MultiselectDropdownWidget, 
 from .styles import BOX_GRID_LAYOUT, WIDE_LABEL_STYLE, html_title
 from .thresholds import MonotonicProbabilitySliderListWidget
 
-logger = logging.getLogger("seismometer")
+from seismometer.core.logger import logger
 
 
 # region Model Evaluation Header Controls

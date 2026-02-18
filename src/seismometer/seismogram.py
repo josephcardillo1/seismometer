@@ -16,7 +16,7 @@ from seismometer.data.loader import SeismogramLoader
 from seismometer.report.alerting import AlertConfigProvider
 
 MAXIMUM_NUM_COHORTS = 25
-logger = logging.getLogger("seismometer")
+from seismometer.core.logger import logger
 
 
 class Seismogram(object, metaclass=Singleton):

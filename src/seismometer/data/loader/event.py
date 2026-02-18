@@ -8,7 +8,7 @@ from seismometer.configuration.model import Event
 
 from .pipeline import ConfigOnlyHook
 
-logger = logging.getLogger("seismometer")
+from seismometer.core.logger import logger
 
 
 def get_data_loader(config: ConfigProvider) -> ConfigOnlyHook:

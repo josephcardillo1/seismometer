@@ -10,7 +10,7 @@ from sklearn.metrics import auc
 from .confidence import PRConfidenceParam, ROCConfidenceParam, confidence_dict
 from .decorators import export
 
-logger = logging.getLogger("seismometer")
+from seismometer.core.logger import logger
 
 DEFAULT_RHO = 1 / 3
 

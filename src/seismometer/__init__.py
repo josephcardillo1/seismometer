@@ -15,7 +15,7 @@ from seismometer.core.autometrics import initialize_otel_config
 from seismometer.api import *
 
 __version__ = importlib.metadata.version("seismometer")
-logger = logging.getLogger("seismometer")
+from seismometer.core.logger import logger
 
 
 def run_startup(

@@ -10,7 +10,7 @@ from seismometer.data.filter import filter_rule_from_cohort_dictionary
 from .selection import MultiSelectionListWidget
 from .styles import BOX_GRID_LAYOUT, WIDE_BUTTON_LAYOUT
 
-logger = logging.getLogger("seismometer")
+from seismometer.core.logger import logger
 
 GENERATE_REPORT = "Generate Report"
 GENERATING_REPORT = "Generating Report..."

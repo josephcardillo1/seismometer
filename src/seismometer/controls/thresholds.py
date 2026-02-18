@@ -10,7 +10,7 @@ from seismometer.plot.mpl._ux import alert_colors
 
 from .styles import WIDE_LABEL_STYLE
 
-logger = logging.getLogger("seismometer")
+from seismometer.core.logger import logger
 
 
 class ProbabilitySliderListWidget(ValueWidget, VBox):

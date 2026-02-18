@@ -12,7 +12,7 @@ import nbformat
 import yaml
 
 Pathlike = str | Path
-logger = logging.getLogger("seismometer")
+from seismometer.core.logger import logger
 
 # region io-accessor functions
 read_ipynb = partial(nbformat.read, as_version=nbformat.current_nbformat)

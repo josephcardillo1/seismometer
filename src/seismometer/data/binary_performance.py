@@ -12,7 +12,7 @@ from seismometer.seismogram import Seismogram
 from . import BinaryClassifierMetricGenerator
 from .performance import MONOTONIC_METRICS, THRESHOLD
 
-logger = logging.getLogger("seismometer")
+from seismometer.core.logger import logger
 
 GENERATED_COLUMNS = [
     "Positives",

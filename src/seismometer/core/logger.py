@@ -80,3 +80,5 @@ class TimeFormatter(logging.Formatter):
         """
         formatted_message = f"[{now()} UTC] {record.levelname}: {record.getMessage()}"
         return formatted_message
+
+logger = init_logger()

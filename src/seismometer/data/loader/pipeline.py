@@ -5,7 +5,7 @@ import pandas as pd
 
 from seismometer.configuration import ConfigProvider
 
-logger = logging.getLogger("seismometer")
+from seismometer.core.logger import logger
 
 ConfigOnlyHook: TypeAlias = Callable[[ConfigProvider], pd.DataFrame]
 ConfigOnlyHook.__doc__ = """

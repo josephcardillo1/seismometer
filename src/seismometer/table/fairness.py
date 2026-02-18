@@ -17,7 +17,7 @@ from seismometer.data import telemetry
 from seismometer.data.filter import FilterRule
 from seismometer.data.performance import BinaryClassifierMetricGenerator, MetricGenerator
 
-logger = logging.getLogger("seismometer")
+from seismometer.core.logger import logger
 
 COUNT = "Count"
 COHORT = "Cohort"

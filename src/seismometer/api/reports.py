@@ -11,7 +11,7 @@ from seismometer.seismogram import Seismogram
 from seismometer.table.analytics_table import ExploreBinaryModelAnalytics
 from seismometer.table.fairness import ExploreBinaryModelFairness
 
-logger = logging.getLogger("seismometer")
+from seismometer.core.logger import logger
 
 
 @export
